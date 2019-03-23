@@ -16,6 +16,7 @@ import java.util.List;
 
 @Slf4j
 @RestController
+@RequestMapping("/order")
 public class MicroservicesExemploController {
 
     private List<Order> orders = new ArrayList<>();
