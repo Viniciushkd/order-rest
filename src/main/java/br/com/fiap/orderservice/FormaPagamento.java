@@ -1,10 +1,5 @@
 package br.com.fiap.orderservice;
 
-import lombok.Getter;
-import lombok.Setter;
-
-@Getter
-@Setter
 public class FormaPagamento {
 
     private int idTransacao;
@@ -18,4 +13,20 @@ public class FormaPagamento {
     public FormaPagamento (String formaPagamento){
         this.formaPagamento = formaPagamento;
     }
+
+	public int getIdTransacao() {
+		return idTransacao;
+	}
+
+	public void setIdTransacao(int idTransacao) {
+		this.idTransacao = idTransacao;
+	}
+
+	public String getFormaPagamento() {
+		return formaPagamento;
+	}
+
+	public void setFormaPagamento(String formaPagamento) {
+		this.formaPagamento = formaPagamento;
+	}
 }
